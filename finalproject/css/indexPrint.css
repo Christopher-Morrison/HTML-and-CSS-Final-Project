@@ -1,0 +1,30 @@
+img{
+    display: none;
+}
+nav{
+    display: none;
+}
+hr {
+    display: none;
+}
+br{
+    display: none;
+}
+p{
+    color:black
+}
+p div{
+    width: 100%;
+}
+.header-title .header-class h1{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    text-decoration-thickness: 0px;
+}
+script  {
+    display:none;
+}
+.side-bar{
+    display:none;
+}

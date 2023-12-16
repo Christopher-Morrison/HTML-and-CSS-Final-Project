@@ -1,0 +1,242 @@
+hr{
+  width:90%;
+  border:top 2.5px;
+}
+p{
+  max-width: 40%;
+}
+header{
+  margin-top: -21px;
+}
+footer{
+  width:300px;
+  margin: auto; 
+  margin-bottom: -20px; 
+  text-align: center; 
+  background-color: #474747; 
+  color: #FF8E72;
+  padding: 15px; 
+  border-top-left-radius: 15px; 
+  border-top-right-radius: 15px;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  text-shadow:1px 1px none;/* serif font looks bad with shadow*/
+  font-size: 30px;
+}
+body{
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
+}
+/* img{ */
+  /* height: 400px; */
+  /* width:auto; */
+  /* overflow: hidden; */
+  /* padding: 0px 2.5px 5px 2.5px; */
+/* } */
+
+.side-bar{
+  background-color: #b1e5f2; 
+  float:right;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.side-bar-text{
+  writing-mode: vertical-rl; 
+  text-orientation: upright; 
+  letter-spacing: -5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight:500;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #b1e5f2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+  
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #111;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;} /* decreases padding-top for mobile */
+.sidenav a {font-size: 18px;} /* decreases link font-size for mobile */
+}
+
+
+.wide-image-container{
+  width: 90%;
+  max-height: 400px;
+  overflow:hidden;
+  margin: 0px 0px 10px 0px;
+}
+.wide-image{
+  width:100%;
+  height: auto;
+}
+
+.image-container{
+    /* max-width:fit-content; */
+    float:left;
+    height: 400px;
+    width:fit-content;
+    overflow: hidden;
+    padding: 0px 2.5px 5px 2.5px;
+}
+.nav-link{
+  float:left;
+  transition-timing-function: ease-in;
+}
+.nav-link:hover{
+  background-color: #e8e9f3;
+}
+.header-class{
+  max-width: fit-content;
+  background-color: #FF8E72; 
+  margin-left: 5%;
+  padding: 0px 0px 0px 0px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.header-title{
+  padding: 25px 40px 2px 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+
+}
+.section-header{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: larger;
+  font-weight:500;
+  padding-left: 1%;
+  padding-top: 2%;
+}
+.section-body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  padding-left: 1%;
+}
+
+.icon-bar {
+  /* width: 100%; Full-width */
+  background-color: white;
+  overflow: auto; /* Overflow due to float */
+  text-align: center;
+  margin: 20px 0px;
+  
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 36px; /* Increased font size */
+  transition-timing-function: ease-in;
+  
+}
+
+.icon-bar a:hover {
+  background-color: #FF8E72; /* Add a hover color */
+}
+
+
+/* The navigation menu links */
+.menu a {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  display: block;
+  /* transition: 0.1s; */
+  overflow:auto;
+  text-align: center;
+  width: 25%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  position:relative;
+}
+
+/* When you mouse over the navigation links, change their color */
+.menu a:hover {
+  color: #474747;
+  text-shadow:10px 10px 50px white;
+
+}
+.section-formatting{
+  width: 100%;
+  padding:0 5% 0 5%;
+}
+
+/* Mobile view default */
+[class*="col-"] {
+  width: 90%;  
+  float:center;   
+  /* padding:15px;  */
+  text-align:center;
+  margin-right:auto;
+  margin-left:auto;
+}
+/* Desktop */
+@media only screen and (min-width: 600px) {
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+}
+/* Desktop */
+@media only screen and (min-width: 900px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
